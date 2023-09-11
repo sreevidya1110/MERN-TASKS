@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task7</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0d8ee4b9;
+}
+.c1{
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 0;
+  width: 400px;
+  background-color: #0d8ee4b9;
+}
+.c2{
+    float:left;
+}
+li a {
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active1{
+    background-color:grey;
+    color:white
+}
+li a.active {
+  background-color: #f8f006;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color:rgb(0, 132, 255);
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Navigation Bar</h2>
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#Java">Java</a></li>
+  <li><a href="#CSS">CSS</a></li>
+  <li><a href="#HTML">HTML</a></li>
+  <li><a href="#Bootstrap">Bootstrap</a></li>
+</ul>
+<center>
+<h2><b>Horizontal Navigation Bar</b></h2>
+<ul class="c1">
+    <li class="c2"><a class="active1" href="#home">Home</a></li>
+    <li class="c2"><a href="#Java">Java</a></li>
+    <li class="c2"><a href="#CSS">CSS</a></li>
+    <li class="c2"><a href="#HTML">HTML</a></li>
+    <li class="c2"><a href="#Bootstrap">Bootstrap</a></li>
+</ul>
+</center>
+
+
+</body>
+</html>
+

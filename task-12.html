@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+    <style>
+        form{
+            align-items: center;
+            height:500px;
+            width:800px;
+            background-color:rgba(128, 0, 47, 0.919);
+        }
+        table{
+            height:400px;
+            width:600px;
+            background-color: #800022ea;
+            border-spacing:20px;
+        }
+        td{
+            color:white;
+        }
+        #abt{
+            height:50px;
+        }
+        #btn{
+            display:block;
+            margin:auto;
+            height:40px;
+            width:400px;
+            border-style:solid;
+            font-size:18px;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input id="name" name="name" type="text" placeholder="your name"/></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"  placeholder="your email"/></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password:</label></td>
+                <td><input id="pwd" name="pwd" type="password"/></td>
+            </tr>
+            <tr>
+                <td><label for="pno">Phone Number:</label></td>
+                <td><input type="tel" name="pno" id="pno"/></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <label for="Male">Male:</label>
+                    <input type="radio" id="Male" name="gender"/>
+                    
+                    <label for="Female">Female:</label>
+                    <input type="radio" id="Female" name="gender"/>
+                    
+                    <label for="Other">Other:</label>
+                    <input type="radio" name="gender" id="Other"/>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lang">language</label></td>
+                <td>
+                    <select>
+                        <option>Select language</option>
+                        <option>Tamil</option>
+                        <option>Hindi</option>
+                        <option>English</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip Code:</label></td>
+                <td><input type="number" id="zip" name="zip"/></td>
+            </tr>
+            <tr>
+                <td><label for="abt">About:</label></td>
+                <td><input type="text" placeholder="Write about yourself..." id="abt" name="abt"/></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="button" id="btn"><b>Register</b></button></td>
+            </tr>
+        </table>
+    
+    </form>
+</center>
+</body>
+</html>

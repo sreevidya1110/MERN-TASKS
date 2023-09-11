@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        .login{
+            text-align:right
+
+        }
+        #addr1{
+            height: 100px;
+            width: 628px;
+        }
+        caption{
+            font-size:40px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table border="1" width="50%">
+            <caption style="color:blue" ><b>Registration Form</b></caption>
+            <tr>
+                <td><label for="fname"><b>First Name</b></label></td>
+                <td><input type="text" id="fname" name="fname" size="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="lname"><b>Last Name</b></label></td>
+                <td><input type="text" id="lname" name="lname" size="90"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>Email</b></label></td>
+                <td><input  type="email" id="email" name="email" size="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="pwd"><b>Password</b></label></td>
+                <td><input type="password" id="pwd" name="pwd" size="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="rpwd"><b>Re-Password</b></label></td>
+                <td><input type="password" id="rpwd" name="rpwd" size="90"/></td> 
+            </tr>
+            <tr>
+                <td><label for="gender"><b>Gender:</b></label></td>
+                <td>
+                    <input type="radio" id="Male" name="gender"/>
+                    <label for="Male">Male</label><br>
+                    <input type="radio" id="Female" name="gender"/>
+                    <label for="Female">Female</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="age"><b>Age:</b></label></td>
+                <td><input type="text" id="age" name="age" size="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="pno"><b>Phone Number</b></label></td>
+                <td><input type="tel" id="pno" name="pno" size="90"/></td>
+            </tr>
+            <tr height="100">
+                <td><label for="addr"><b>Address</b></label></td>
+                <td><input type="text" id="addr1" name="addr" height="100" width="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="state"><b>State</b></label></td>
+                <td><input type="text" id="state" name="state" size="90"/></td>
+            </tr>
+            <tr>
+                <td><label for="country"><b>Country</b></label></td>
+                <td>
+                    <select width="90">
+                        <option>Choose your country</option>
+                        <option>Africa</option>
+                        <option>Australia</option>
+                        <option>India</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lang"><b>Languages known</b></label></td>
+                <td><input type="checkbox" id="lang1" name="lang1" value="English"/>
+                    <label for="lang1">English</label>
+                    <input type="checkbox" id="lang2" name="lang2" value="Kannada"/>
+                    <label for="lang2">Kannada</label>
+                    <input type="checkbox" id="lang3" name="lang3" value="Hindi"/>
+                    <label for="lang3">Hindi</label>
+                    <input type="checkbox" id="lang4" name="lang4" value="Telugu"/>
+                    <label for="lang4">Telugu</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="declare" name="declare" value="Hereby I declare all the given details are true"/>
+                <label for="declare">Hereby I declare all the given details are true</label>
+                </td>
+            </tr>
+            <tr>
+                <td  class="login" colspan="2" text-align="right">Log in to<a href="https://ethnus.com">Ethnus</a>website</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
